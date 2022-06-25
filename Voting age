@@ -1,0 +1,15 @@
+#to check whether a person is eligible for voting.
+import java.util.*;
+class J
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int a;
+        a=sc.nextInt();
+        if(a>=18)
+            System.out.print("He/She is eligible for voting");
+        else
+            System.out.print("He/She will be eligible after " + (18 - a));
+    }
+}
